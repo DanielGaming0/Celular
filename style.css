@@ -15,11 +15,11 @@ body {
     justify-content: center;
     padding: 20px;
     text-align: center;
+    gap: 20px;
 }
 
 .top-title {
     font-size: 26px;
-    margin-bottom: 20px;
     background-color: rgba(0, 0, 0, 0.6);
     padding: 10px 20px;
     border-radius: 15px;
@@ -30,7 +30,6 @@ body {
     background-color: rgba(0, 0, 0, 0.6);
     padding: 30px;
     border-radius: 15px;
-    text-align: center;
     width: 90%;
     max-width: 500px;
     box-shadow: 0 8px 16px rgba(0,0,0,0.3);
@@ -59,7 +58,7 @@ h1 {
     background-color: rgba(255, 255, 255, 0.2);
     padding: 8px 12px;
     border-radius: 8px;
-    word-break: break-all;
+    word-break: break-word;
 }
 
 .pix-key button {
@@ -84,7 +83,6 @@ h1 {
 }
 
 .description {
-    margin-top: 20px;
     font-size: 16px;
     max-width: 600px;
     background-color: rgba(0, 0, 0, 0.5);
